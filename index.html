@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kidala simulator</title>
+</head>
+<body>
+    <div id="score" class="score hidden">
+        <h2 id="cash">Cash: 0$</h2>
+        <h2 id="rep">Rep: 0</h2>
+    </div>
+
+    <div id="title">
+        <div class="title_container">
+            <h1>Kidala simulator</h1>
+
+            <img src="/kidala.jfif" alt="kidala from kidala.life">
+
+            <button onclick="handlePlay()">Play</button>
+        </div>
+    </div>
+
+    <div id="options" class="hidden"></div>
+
+    <div id="notification" class="hidden">
+        <div>
+            <button onclick="acceptJob()">Accept</button>
+            <button onclick="declineJob()">Decline</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

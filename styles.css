@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+body {
+  height: 100vh;
+}
+
+button {
+  padding: 4px 10px;
+  font-size: 1.2rem;
+}
+
+#notification {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(26, 151, 151);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#notification > p {
+  color: #fff;
+}
+
+#notification > div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#notification > div > button {
+  margin: 0px 8px 4px 0px;
+}
+
+#options {
+  position: absolute;
+  bottom: 30px;
+  width: 95%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgb(8, 142, 142);
+  border-radius: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#options > p {
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+#options > h3 {
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.option {
+  margin-top: 4px;
+}
+
+#options > img {
+  height: 300px;
+  margin-top: 10px;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#title {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_container {
+  width: 95%;
+  max-width: 700px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.title_container > button {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none !important;
+}
