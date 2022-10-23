@@ -42,6 +42,8 @@ const showNotification = () => {
     "Jenkem",
     "Ogres",
     "Kroņu",
+    "Lupīnu",
+    "Buļļu",
     "Tu jau zini",
   ];
 
@@ -64,6 +66,8 @@ const showOptions = () => {
   const initiators = [
     "Yo vecīt",
     "Yo tu tas pacans",
+    "Yo",
+    "Sveiks, tu esi tas džeks, kurš man te nometīs stafu?",
     "Sveiki",
     "Kura no jums ir signe?",
     "Kurš no jums ir benārs?",
@@ -73,8 +77,14 @@ const showOptions = () => {
     "Es vēlos nopirkt marihuānu",
     "Tev marihuana ir?",
     "O centr xd?",
-    "Es spēlēju amongus",
+    "A kurš no jums ir cigārs",
+    "Samīļo mani ja tu mani mīli xd",
+    "Varētu man lūdzu 2 bauskas aliņus pls xd",
+    "Bo zep?",
+    "Dvj pa bracki iedod džekam 2o",
+    "Vari iedot 2o uz ZV konci?",
     "Man lūdzu 2 gramus scooby snacks spaisa",
+    "Tu vakar maksimā raudāji?",
   ];
 
   const initiator = initiators[randomIntFromInterval(0, initiators.length - 1)];
